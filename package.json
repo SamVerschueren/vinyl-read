@@ -1,0 +1,44 @@
+{
+  "name": "vinyl-read",
+  "version": "0.0.0",
+  "description": "Create vinyl files from a glob pattern",
+  "license": "MIT",
+  "repository": "SamVerschueren/vinyl-read",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "vinyl",
+    "fs",
+    "file",
+    "read",
+    "virtual",
+    "gulp",
+    "gulp-friendly",
+    "glob",
+    "globbing"
+  ],
+  "dependencies": {
+    "globby": "^4.0.0",
+    "graceful-fs": "^4.1.2",
+    "pify": "^2.3.0",
+    "pinkie-promise": "^2.0.0",
+    "vinyl": "^1.1.0",
+    "vinyl-file": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
