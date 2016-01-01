@@ -1,6 +1,6 @@
 {
   "name": "vinyl-read",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Create vinyl files from a glob pattern",
   "license": "MIT",
   "repository": "SamVerschueren/vinyl-read",
